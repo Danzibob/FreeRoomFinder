@@ -1,0 +1,44 @@
+@font-face {
+    font-family: DroidSans;
+    src: url("Fonts/DroidSans/DroidSans.ttf");
+}
+@font-face {
+    font-family: DroidSansMono;
+    src: url("Fonts/DroidSansMono/DroidSansMono.ttf");
+}
+
+body{
+	background-color: #e0e0e0;
+	font-family: "DroidSans",sans-serif;
+}
+
+#header{
+	background-color: #0c131f;
+	color: white;
+	text-align: center;
+	height: 100px;
+	width: 100%;
+}
+h1{
+	line-height: 100px;
+	font-size: 60px;
+}
+.button{
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	border-radius: 10px;
+	height:200px;
+	text-align: center;
+	font-size: 40px;
+	margin-top:20px;
+	box-sizing: border-box;
+	border: #FFF 2px solid;
+}
+
+.button:hover{
+	border: #999 2px solid;
+}
