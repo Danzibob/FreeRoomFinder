@@ -1,5 +1,5 @@
 <head>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="data.js"></script>
 <script src="script.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -15,8 +15,8 @@
 
 <div id="MainMenu">
 	<h2>I need...</h2>
-	<div class="button box" id="time">Any room at a certain time</div>
-	<div class="button box" id="room">A specific room at any time</div>
+	<div class="button box" id="timeMode">Any room at a certain time</div>
+	<div class="button box" id="roomMode">A specific room at any time</div>
 	<div class="button box smaller_button" id="adv">Advanced search</div>
 </div>
 
@@ -39,9 +39,8 @@
 		<option value="4">4</option>
 		<option value="5">5</option>
 	</select>
+	<button class="submit">Search</button>
 	<div class="output">
-		<ul>
-		</ul>
 	</div>
 </div>
 
