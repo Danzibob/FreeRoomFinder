@@ -27,6 +27,12 @@ h2{
 	font-size: 40px;
 	margin-left: 5%;
 }
+h3{
+	margin: 0px;
+}
+p{
+	margin-top: 0px;
+}
 
 .box{
 	box-sizing: border-box;
@@ -58,14 +64,23 @@ h2{
 	line-height: 80px;
 	display: none;
 }
+#RoomSearch{
+	padding: 20px;
+	line-height: 80px;
+	display: none;
+}
 
-select, button{
+select, button, input{
 	display: inline-block;
 	font-size: 40px;
 }
+input{
+	margin: 10px;
+	margin-left: 5%;
+}
 
 .output{
-	height: 400px;
+	min-height: 100px;
 	width: 90%;
 	background-color: #3472a3;
 	margin: auto;
@@ -75,4 +90,5 @@ select, button{
 	padding-top: 0px;
 	box-sizing: border-box;
 	color: white;
+	transition: all .5s linear;
 }

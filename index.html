@@ -17,11 +17,11 @@
 	<h2>I need...</h2>
 	<div class="button box" id="timeMode">Any room at a certain time</div>
 	<div class="button box" id="roomMode">A specific room at any time</div>
-	<div class="button box smaller_button" id="adv">Advanced search</div>
+	<!--<div class="button box smaller_button" id="adv">Advanced search</div>-->
 </div>
 
 <div id="TimeSearch" class="box">
-	<select id="week">
+	<select id="week" style="margin-left: 5%">
 		<option value="A">Week A</option>
 		<option value="B">Week B</option>
 	</select>
@@ -39,6 +39,13 @@
 		<option value="4">4</option>
 		<option value="5">5</option>
 	</select>
+	<button class="submit">Search</button>
+	<div class="output">
+	</div>
+</div>
+
+<div id="RoomSearch" class="box">
+	<input type="text" id="roomCode" name="room">
 	<button class="submit">Search</button>
 	<div class="output">
 	</div>
